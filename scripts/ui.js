@@ -10,7 +10,7 @@ export function renderMenuItems(menuItems, menuList) {
   menuList.innerHTML = menuItems
     .map(
       (item) => `
-      <a id="card"  href="id=${
+      <a id="card"  href="/detail.html?id=${
         item.id
       }" class="d-flex  flex-column flex-md-row text-decoration-none text-dark gap-3">
         <img
